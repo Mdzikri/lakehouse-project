@@ -9,8 +9,8 @@ import os
 def export_data_from_mysql():
     hook = MySqlHook(mysql_conn_id='mysql_conn')
     engine = hook.get_sqlalchemy_engine()
-    df = pd.read_sql('SELECT * FROM cek', con=engine)
-    local_path = '/opt/airflow/dags/data/exported_data.csv'
+    df = pd.read_sql('SELECT * FROM tugas', con=engine)
+    local_path = '/opt/airflow/datasource/datasource.csv'
     df.to_csv(local_path, index=False)
     return local_path
 
@@ -38,7 +38,7 @@ with DAG(
     upload_to_gcs_task = LocalFilesystemToGCSOperator(
         task_id='upload_to_gcs',
         src="{{ task_instance.xcom_pull(task_ids='export_data_from_mysql') }}",
-        dst='data/exported_data.csv',
+        dst='testing2/data-source.csv',
         bucket='testing-de',
         gcp_conn_id='google_cloud_default',  # Gunakan nama koneksi GCS yang benar
     )

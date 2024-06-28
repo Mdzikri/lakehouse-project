@@ -10,8 +10,7 @@ x-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - ./plugins:/opt/airflow/script
-    - ./plugins:/opt/airflow/ipynb
+    - ./datasource:/opt/airflow/datasource
     - /var/run/docker.sock:/var/run/docker.sock
   environment:
     - GOOGLE_APPLICATION_CREDENTIALS=/opt/airflow/dags/credentials/starlit-cocoa-423615-r6-2cc261b108bb.json
@@ -68,7 +67,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
-      # - ./credentials:/opt/airflow/dags/credentials
+      - ./datasource:/opt/airflow/datasource
 
   airflow-init:
     <<: *common
