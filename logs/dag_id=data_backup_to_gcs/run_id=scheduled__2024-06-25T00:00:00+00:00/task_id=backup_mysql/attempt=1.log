@@ -1,0 +1,37 @@
+[2024-06-26T23:14:33.204+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-26T23:14:33.243+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_backup_to_gcs.backup_mysql scheduled__2024-06-25T00:00:00+00:00 [queued]>
+[2024-06-26T23:14:33.250+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_backup_to_gcs.backup_mysql scheduled__2024-06-25T00:00:00+00:00 [queued]>
+[2024-06-26T23:14:33.251+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-06-26T23:14:33.261+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): backup_mysql> on 2024-06-25 00:00:00+00:00
+[2024-06-26T23:14:33.270+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=376) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-26T23:14:33.269+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'data_backup_to_gcs', 'backup_mysql', 'scheduled__2024-06-25T00:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/to_gcs.py', '--cfg-path', '/tmp/tmpnk0bpf18']
+[2024-06-26T23:14:33.271+0000] {standard_task_runner.py:63} INFO - Started process 379 to run task
+[2024-06-26T23:14:33.271+0000] {standard_task_runner.py:91} INFO - Job 51: Subtask backup_mysql
+[2024-06-26T23:14:33.307+0000] {task_command.py:426} INFO - Running <TaskInstance: data_backup_to_gcs.backup_mysql scheduled__2024-06-25T00:00:00+00:00 [running]> on host 1156a65a130e
+[2024-06-26T23:14:33.369+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_backup_to_gcs' AIRFLOW_CTX_TASK_ID='backup_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-25T00:00:00+00:00'
+[2024-06-26T23:14:33.370+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-26T23:14:33.391+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-26T23:14:33.392+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mysqldump -h mysql-db -u root -ppassword dataset_db > /opt/***/dags/backup.sql']
+[2024-06-26T23:14:33.403+0000] {subprocess.py:86} INFO - Output:
+[2024-06-26T23:15:07.001+0000] {subprocess.py:93} INFO - mysqldump: Got error: 2005: "Unknown server host 'mysql-db' (-3)" when trying to connect
+[2024-06-26T23:15:07.002+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2024-06-26T23:15:07.003+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-26T23:15:07.015+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2024-06-26T23:15:07.021+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=data_backup_to_gcs, task_id=backup_mysql, run_id=scheduled__2024-06-25T00:00:00+00:00, execution_date=20240625T000000, start_date=20240626T231433, end_date=20240626T231507
+[2024-06-26T23:15:07.038+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 51 for task backup_mysql (Bash command failed. The command returned a non-zero exit code 2.; 379)
+[2024-06-26T23:15:07.084+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-26T23:15:07.102+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-26T23:15:07.102+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
