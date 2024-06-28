@@ -12,7 +12,7 @@ def load_data_to_mysql():
     # Baca dataset
     df = pd.read_csv('/opt/airflow/dags/data/online_gaming_behavior_dataset.csv')
     # Masukkan data ke tabel MySQL
-    df.to_sql('cek', con=engine, if_exists='replace', index=False)
+    df.to_sql('tugas', con=engine, if_exists='replace', index=False)
 
 dag = DAG(
     'data_transfer_to_mysql',
