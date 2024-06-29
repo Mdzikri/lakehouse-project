@@ -13,6 +13,7 @@ x-common:
     - ./datasource:/opt/airflow/datasource
     - ./dataproc:/opt/airflow/dataproc
     - ./csv:/opt/airflow/csv
+    - ./docker:/opt/airflow/docker
     - /var/run/docker.sock:/var/run/docker.sock
   environment:
     - GOOGLE_APPLICATION_CREDENTIALS=/opt/airflow/dags/credentials/starlit-cocoa-423615-r6-2cc261b108bb.json
@@ -72,6 +73,7 @@ services:
       - ./datasource:/opt/airflow/datasource
       - ./dataproc:/opt/airflow/dataproc
       - ./csv:/opt/airflow/csv
+      - ./docker:/opt/airflow/docker
 
   airflow-init:
     <<: *common
