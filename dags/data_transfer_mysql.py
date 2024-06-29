@@ -1,3 +1,4 @@
+from datetime import datetime
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.hooks.mysql_hook import MySqlHook
@@ -6,12 +7,11 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def load_data_to_mysql():
-    # Gunakan MySqlHook untuk mendapatkan koneksi dari UI Airflow
+    # conections
     hook = MySqlHook(mysql_conn_id='mysql_conn')
     engine = create_engine(hook.get_uri())
-    # Baca dataset
-    df = pd.read_csv('/opt/airflow/dags/data/online_gaming_behavior_dataset.csv')
-    # Masukkan data ke tabel MySQL
+    #read data
+    df = pd.read_csv('/opt/airflow/csv/online_gaming_behavior_dataset.csv')
     df.to_sql('tugas', con=engine, if_exists='replace', index=False)
 
 dag = DAG(
@@ -24,8 +24,8 @@ dag = DAG(
         'retries': 1,
     },
     description='A simple DAG to transfer data to MySQL',
-    schedule_interval='@once',
-    start_date=days_ago(1),
+    schedule_interval='0 17 * * *',
+    start_date=datetime.today()
 )
 
 transfer_data = PythonOperator(

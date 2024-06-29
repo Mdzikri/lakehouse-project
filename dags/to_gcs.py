@@ -26,7 +26,7 @@ with DAG(
     'data_transfer_to_gcs',
     default_args=default_args,
     description='DAG untuk mengekspor data dari MySQL dan mengunggah ke GCS',
-    schedule_interval='@once',
+    schedule_interval='datetime.today()',
     start_date=days_ago(1),
 ) as dag:
 
@@ -38,7 +38,7 @@ with DAG(
     upload_to_gcs_task = LocalFilesystemToGCSOperator(
         task_id='upload_to_gcs',
         src="{{ task_instance.xcom_pull(task_ids='export_data_from_mysql') }}",
-        dst='testing2/data-source.csv',
+        dst='data/data-source.csv',
         bucket='testing-de',
         gcp_conn_id='google_cloud_default',  # Gunakan nama koneksi GCS yang benar
     )

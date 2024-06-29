@@ -313,3 +313,430 @@
 [2024-06-28T14:45:51.066+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:45:51.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-28T14:45:51.080+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:45:51.080+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
 [2024-06-28T14:45:51.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.224 seconds
+[2024-06-28T14:46:21.357+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:46:21.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:46:21.360+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:46:21.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:46:21.579+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:46:21.597+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:46:21.596+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:46:21.618+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:46:21.617+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:46:21.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.289 seconds
+[2024-06-28T14:46:51.862+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:46:51.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:46:51.867+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:46:51.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:46:52.045+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:46:52.061+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:46:52.061+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:46:52.075+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:46:52.075+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:46:52.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.233 seconds
+[2024-06-28T14:47:22.328+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:47:22.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:47:22.335+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:47:22.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:47:22.567+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:47:22.590+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:47:22.590+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:47:22.614+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:47:22.613+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:47:22.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.313 seconds
+[2024-06-28T14:47:52.830+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:47:52.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:47:52.835+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:47:52.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:47:53.007+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:47:53.024+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:47:53.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:47:53.037+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:47:53.037+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:47:53.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.229 seconds
+[2024-06-28T14:48:23.297+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:48:23.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:48:23.302+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:48:23.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:48:23.465+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:48:23.485+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:48:23.485+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:48:23.499+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:48:23.499+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:48:23.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.220 seconds
+[2024-06-28T14:48:53.839+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:48:53.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:48:53.843+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:48:53.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:48:54.006+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:48:54.020+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:48:54.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:48:54.033+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:48:54.033+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:48:54.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.211 seconds
+[2024-06-28T14:49:24.340+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:49:24.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:49:24.345+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:49:24.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:49:24.516+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:49:24.541+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:49:24.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:49:24.555+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:49:24.554+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:49:24.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.238 seconds
+[2024-06-28T14:49:54.841+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:49:54.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:49:54.845+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:49:54.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:49:55.016+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:49:55.032+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:49:55.032+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:49:55.044+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:49:55.044+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:49:55.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.222 seconds
+[2024-06-28T14:50:25.339+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:50:25.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:50:25.343+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:50:25.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:50:25.509+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:50:25.529+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:50:25.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:50:25.543+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:50:25.543+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:50:25.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.224 seconds
+[2024-06-28T14:50:55.852+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:50:55.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:50:55.856+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:50:55.855+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:50:56.029+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:50:56.046+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:50:56.046+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:50:56.058+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:50:56.058+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:50:56.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.234 seconds
+[2024-06-28T14:51:26.364+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:51:26.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:51:26.369+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:51:26.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:51:26.556+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:51:26.572+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:51:26.572+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:51:26.585+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:51:26.584+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:51:26.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.238 seconds
+[2024-06-28T14:51:56.902+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:51:56.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:51:56.905+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:51:56.905+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:51:57.068+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:51:57.084+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:51:57.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:51:57.098+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:51:57.098+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:51:57.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.218 seconds
+[2024-06-28T14:52:27.413+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:52:27.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:52:27.416+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:52:27.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:52:27.583+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:52:27.600+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:52:27.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:52:27.616+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:52:27.616+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:52:27.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.223 seconds
+[2024-06-28T14:52:57.860+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:52:57.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:52:57.863+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:52:57.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:52:58.026+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:52:58.043+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:52:58.042+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:52:58.056+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:52:58.056+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:52:58.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.213 seconds
+[2024-06-28T14:53:28.310+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:53:28.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:53:28.314+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:53:28.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:53:28.492+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:53:28.508+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:53:28.508+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:53:28.519+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:53:28.519+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:53:28.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.227 seconds
+[2024-06-28T14:53:58.807+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:53:58.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:53:58.811+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:53:58.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:53:58.994+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:53:59.009+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:53:59.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:53:59.020+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:53:59.020+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:53:59.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.231 seconds
+[2024-06-28T14:54:29.244+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:54:29.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:54:29.248+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:54:29.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:54:29.420+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:54:29.436+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:54:29.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:54:29.449+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:54:29.449+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:54:29.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.228 seconds
+[2024-06-28T14:54:59.741+0000] {processor.py:161} INFO - Started process (PID=479) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:54:59.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:54:59.746+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:54:59.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:54:59.914+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:54:59.933+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:54:59.933+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:54:59.952+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:54:59.951+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:54:59.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.228 seconds
+[2024-06-28T14:55:30.258+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:55:30.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:55:30.263+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:55:30.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:55:30.464+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:55:30.479+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:55:30.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:55:30.491+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:55:30.490+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:55:30.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.259 seconds
+[2024-06-28T14:56:00.779+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:56:00.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:56:00.783+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:56:00.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:56:00.949+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:56:00.966+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:56:00.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:56:00.979+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:56:00.979+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:56:00.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.216 seconds
+[2024-06-28T14:56:31.301+0000] {processor.py:161} INFO - Started process (PID=515) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:56:31.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:56:31.305+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:56:31.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:56:31.469+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:56:31.484+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:56:31.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:56:31.496+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:56:31.496+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:56:31.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.214 seconds
+[2024-06-28T14:57:01.739+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:57:01.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:57:01.743+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:57:01.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:57:01.922+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:57:01.942+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:57:01.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:57:01.955+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:57:01.955+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:57:01.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.235 seconds
+[2024-06-28T14:57:32.175+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:57:32.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:57:32.180+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:57:32.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:57:32.343+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:57:32.359+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:57:32.359+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:57:32.374+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:57:32.373+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:57:32.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.220 seconds
+[2024-06-28T14:58:02.602+0000] {processor.py:161} INFO - Started process (PID=551) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:58:02.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:58:02.606+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:58:02.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:58:02.766+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:58:02.786+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:58:02.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:58:02.800+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:58:02.800+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:58:02.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.214 seconds
+[2024-06-28T14:58:33.058+0000] {processor.py:161} INFO - Started process (PID=563) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:58:33.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:58:33.062+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:58:33.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:58:33.230+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:58:33.248+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:58:33.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:58:33.262+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:58:33.262+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:58:33.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.221 seconds
+[2024-06-28T14:59:03.496+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:59:03.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:59:03.500+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:59:03.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:59:03.668+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:59:03.684+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:59:03.684+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:59:03.696+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:59:03.695+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:59:03.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.218 seconds
+[2024-06-28T14:59:33.926+0000] {processor.py:161} INFO - Started process (PID=587) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:59:33.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T14:59:33.930+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:59:33.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:59:34.122+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T14:59:34.139+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:59:34.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T14:59:34.155+0000] {logging_mixin.py:188} INFO - [2024-06-28T14:59:34.155+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T14:59:34.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.248 seconds
+[2024-06-28T15:00:04.414+0000] {processor.py:161} INFO - Started process (PID=599) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:00:04.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:00:04.418+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:00:04.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:00:04.618+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:00:04.633+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:00:04.633+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:00:04.647+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:00:04.647+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:00:04.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.252 seconds
+[2024-06-28T15:00:34.914+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:00:34.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:00:34.916+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:00:34.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:00:35.078+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:00:35.094+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:00:35.093+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:00:35.106+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:00:35.106+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:00:35.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.207 seconds
+[2024-06-28T15:01:05.324+0000] {processor.py:161} INFO - Started process (PID=623) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:01:05.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:01:05.326+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:01:05.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:01:05.496+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:01:05.512+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:01:05.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:01:05.524+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:01:05.524+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:01:05.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.216 seconds
+[2024-06-28T15:01:35.751+0000] {processor.py:161} INFO - Started process (PID=635) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:01:35.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:01:35.755+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:01:35.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:01:35.919+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:01:35.936+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:01:35.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:01:35.949+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:01:35.949+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:01:35.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.215 seconds
+[2024-06-28T15:02:06.178+0000] {processor.py:161} INFO - Started process (PID=647) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:02:06.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:02:06.183+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:02:06.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:02:06.362+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:02:06.379+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:02:06.378+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:02:06.392+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:02:06.392+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:02:06.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.234 seconds
+[2024-06-28T15:02:36.638+0000] {processor.py:161} INFO - Started process (PID=659) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:02:36.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:02:36.640+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:02:36.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:02:36.802+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:02:36.823+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:02:36.823+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:02:36.841+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:02:36.840+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:02:36.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.228 seconds
+[2024-06-28T15:03:07.145+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:03:07.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:03:07.150+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:03:07.150+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:03:07.313+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:03:07.330+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:03:07.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:03:07.341+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:03:07.341+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:03:07.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.213 seconds
+[2024-06-28T15:03:37.660+0000] {processor.py:161} INFO - Started process (PID=683) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:03:37.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:03:37.664+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:03:37.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:03:37.847+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:03:37.864+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:03:37.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:03:37.879+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:03:37.879+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:03:37.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.239 seconds
+[2024-06-28T15:04:08.195+0000] {processor.py:161} INFO - Started process (PID=695) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:04:08.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:04:08.198+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:04:08.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:04:08.363+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:04:08.385+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:04:08.385+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:04:08.400+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:04:08.400+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:04:08.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.225 seconds
+[2024-06-28T15:04:38.716+0000] {processor.py:161} INFO - Started process (PID=707) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:04:38.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:04:38.720+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:04:38.720+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:04:38.912+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:04:38.930+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:04:38.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:04:38.943+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:04:38.943+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:04:38.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.250 seconds
+[2024-06-28T15:05:09.206+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:05:09.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:05:09.210+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:05:09.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:05:09.377+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:05:09.394+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:05:09.393+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:05:09.406+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:05:09.406+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:05:09.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.220 seconds
+[2024-06-28T15:05:39.699+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:05:39.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:05:39.704+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:05:39.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:05:39.885+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:05:39.902+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:05:39.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:05:39.915+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:05:39.915+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:05:39.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.233 seconds
+[2024-06-28T15:06:10.161+0000] {processor.py:161} INFO - Started process (PID=743) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:06:10.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T15:06:10.164+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:06:10.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:06:10.343+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T15:06:10.359+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:06:10.359+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T15:06:10.371+0000] {logging_mixin.py:188} INFO - [2024-06-28T15:06:10.371+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T15:06:10.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.228 seconds
+[2024-06-28T23:49:48.335+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:49:48.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:49:48.337+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:49:48.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:49:48.517+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:49:48.526+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:49:48.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:49:48.539+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:49:48.539+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:49:48.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.227 seconds
+[2024-06-28T23:50:18.841+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:50:18.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:50:18.848+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:50:18.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:50:19.105+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:50:19.178+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:50:19.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:50:19.201+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:50:19.201+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:50:19.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.394 seconds
+[2024-06-28T23:50:49.425+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:50:49.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:50:49.430+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:50:49.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:50:49.607+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:50:49.623+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:50:49.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:50:49.637+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:50:49.637+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:50:49.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.232 seconds
+[2024-06-28T23:51:19.936+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:51:19.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:51:19.937+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:51:19.937+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:51:20.102+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:51:20.118+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:51:20.118+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:51:20.133+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:51:20.132+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:51:20.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.217 seconds
+[2024-06-28T23:51:50.439+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:51:50.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:51:50.443+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:51:50.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:51:50.621+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:51:50.637+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:51:50.637+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:51:50.651+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:51:50.651+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:51:50.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.230 seconds
+[2024-06-28T23:52:20.940+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:52:20.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:52:20.944+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:52:20.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:52:21.109+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:52:21.127+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:52:21.127+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:52:21.147+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:52:21.147+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:52:21.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.233 seconds
+[2024-06-28T23:52:51.474+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:52:51.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:52:51.477+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:52:51.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:52:51.657+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:52:51.677+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:52:51.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:52:51.691+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:52:51.691+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:52:51.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.238 seconds
+[2024-06-28T23:53:21.986+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:53:21.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:53:21.991+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:53:21.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:53:22.157+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:53:22.177+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:53:22.177+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:53:22.197+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:53:22.197+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:53:22.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.238 seconds
+[2024-06-28T23:53:52.509+0000] {processor.py:161} INFO - Started process (PID=294) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:53:52.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:53:52.512+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:53:52.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:53:52.676+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:53:52.698+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:53:52.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:53:52.719+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:53:52.718+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:53:52.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.233 seconds
+[2024-06-28T23:54:23.025+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:54:23.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:54:23.029+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:54:23.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:54:23.197+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:54:23.213+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:54:23.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:54:23.227+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:54:23.227+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:54:23.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.222 seconds
+[2024-06-28T23:54:53.555+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:54:53.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:54:53.559+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:54:53.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:54:53.742+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:54:53.759+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:54:53.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:54:53.771+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:54:53.771+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:54:53.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.235 seconds
+[2024-06-28T23:55:24.009+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:55:24.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:55:24.013+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:55:24.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:55:24.186+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:55:24.207+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:55:24.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:55:24.221+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:55:24.221+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:55:24.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.234 seconds
+[2024-06-28T23:55:54.523+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:55:54.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:55:54.526+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:55:54.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:55:54.693+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:55:54.708+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:55:54.708+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:55:54.719+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:55:54.719+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:55:54.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.211 seconds
+[2024-06-28T23:56:24.929+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:56:24.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:56:24.930+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:56:24.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:56:25.096+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:56:25.112+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:56:25.112+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:56:25.129+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:56:25.128+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:56:25.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.221 seconds
+[2024-06-28T23:56:55.349+0000] {processor.py:161} INFO - Started process (PID=375) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:56:55.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:56:55.351+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:56:55.351+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:56:55.530+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:56:55.551+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:56:55.550+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:56:55.564+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:56:55.564+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:56:55.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.236 seconds
+[2024-06-28T23:57:25.825+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:57:25.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:57:25.828+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:57:25.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:57:25.996+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:57:26.019+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:57:26.019+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:57:26.040+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:57:26.039+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:57:26.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.235 seconds
+[2024-06-28T23:57:56.315+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:57:56.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:57:56.318+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:57:56.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:57:56.480+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:57:56.501+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:57:56.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:57:56.517+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:57:56.516+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:57:56.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.217 seconds
+[2024-06-28T23:58:26.797+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:58:26.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:58:26.798+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:58:26.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:58:26.980+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:58:26.997+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:58:26.997+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:58:27.011+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:58:27.011+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:58:27.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.231 seconds
+[2024-06-28T23:58:57.289+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:58:57.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:58:57.292+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:58:57.292+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:58:57.464+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:58:57.481+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:58:57.480+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:58:57.494+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:58:57.494+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:58:57.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.222 seconds
+[2024-06-28T23:59:27.781+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:59:27.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:59:27.785+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:59:27.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:59:27.968+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:59:27.982+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:59:27.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:59:27.994+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:59:27.994+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:59:28.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.227 seconds
+[2024-06-28T23:59:32.832+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:59:32.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-28T23:59:32.834+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:59:32.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:59:33.001+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_gcs' retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-28T23:59:33.061+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:59:33.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-28T23:59:33.073+0000] {logging_mixin.py:188} INFO - [2024-06-28T23:59:33.072+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_gcs to None, run_after=None
+[2024-06-28T23:59:33.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.263 seconds
