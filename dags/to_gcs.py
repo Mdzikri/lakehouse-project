@@ -26,7 +26,7 @@ with DAG(
     'data_transfer_to_gcs',
     default_args=default_args,
     description='DAG untuk mengekspor data dari MySQL dan mengunggah ke GCS',
-    schedule_interval='datetime.today()',
+    schedule_interval='@once',
     start_date=days_ago(1),
 ) as dag:
 
