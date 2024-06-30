@@ -19,3 +19,24 @@
 [2024-06-30T03:26:19.003+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:19.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-30T03:26:19.015+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:19.015+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_mysql to 2024-06-30 17:00:00+00:00, run_after=2024-07-01 17:00:00+00:00
 [2024-06-30T03:26:19.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_transfer_mysql.py took 0.436 seconds
+[2024-06-30T03:26:49.164+0000] {processor.py:161} INFO - Started process (PID=18651) to work on /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:26:49.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_transfer_mysql.py for tasks to queue
+[2024-06-30T03:26:49.170+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:49.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:26:49.555+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_mysql' retrieved from /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:26:49.609+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:49.609+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-30T03:26:49.621+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:49.621+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_mysql to 2024-06-30 17:00:00+00:00, run_after=2024-07-01 17:00:00+00:00
+[2024-06-30T03:26:49.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_transfer_mysql.py took 0.480 seconds
+[2024-06-30T03:27:19.685+0000] {processor.py:161} INFO - Started process (PID=18663) to work on /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:27:19.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_transfer_mysql.py for tasks to queue
+[2024-06-30T03:27:19.688+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:19.688+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:27:19.972+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_mysql' retrieved from /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:27:20.041+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:20.041+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-30T03:27:20.051+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:20.051+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_mysql to 2024-06-30 17:00:00+00:00, run_after=2024-07-01 17:00:00+00:00
+[2024-06-30T03:27:20.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_transfer_mysql.py took 0.388 seconds
+[2024-06-30T03:27:50.248+0000] {processor.py:161} INFO - Started process (PID=18675) to work on /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:27:50.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_transfer_mysql.py for tasks to queue
+[2024-06-30T03:27:50.250+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:50.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:27:50.534+0000] {processor.py:840} INFO - DAG(s) 'data_transfer_to_mysql' retrieved from /opt/airflow/dags/data_transfer_mysql.py
+[2024-06-30T03:27:50.586+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:50.586+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-30T03:27:50.596+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:50.596+0000] {dag.py:3954} INFO - Setting next_dagrun for data_transfer_to_mysql to 2024-06-30 17:00:00+00:00, run_after=2024-07-01 17:00:00+00:00
+[2024-06-30T03:27:50.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_transfer_mysql.py took 0.365 seconds

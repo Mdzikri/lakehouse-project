@@ -85,3 +85,90 @@ Traceback (most recent call last):
 airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
 [2024-06-30T03:26:11.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/to_gcs.py
 [2024-06-30T03:26:11.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.317 seconds
+[2024-06-30T03:26:41.778+0000] {processor.py:161} INFO - Started process (PID=18645) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:26:41.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-30T03:26:41.781+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:41.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:26:42.053+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:26:42.052+0000] {dagbag.py:452} ERROR - Failed to bag_dag: /opt/airflow/dags/to_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 100, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 187, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 821, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 659, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 447, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 775, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 102, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2024-06-30T03:26:42.053+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:26:42.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.296 seconds
+[2024-06-30T03:27:12.312+0000] {processor.py:161} INFO - Started process (PID=18657) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:27:12.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-30T03:27:12.316+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:12.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:27:12.598+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:12.597+0000] {dagbag.py:452} ERROR - Failed to bag_dag: /opt/airflow/dags/to_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 100, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 187, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 821, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 659, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 447, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 775, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 102, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2024-06-30T03:27:12.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:27:12.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.302 seconds
+[2024-06-30T03:27:42.869+0000] {processor.py:161} INFO - Started process (PID=18669) to work on /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:27:42.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/to_gcs.py for tasks to queue
+[2024-06-30T03:27:42.873+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:42.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:27:43.156+0000] {logging_mixin.py:188} INFO - [2024-06-30T03:27:43.155+0000] {dagbag.py:452} ERROR - Failed to bag_dag: /opt/airflow/dags/to_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 100, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 187, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 821, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/croniter/croniter.py", line 659, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 447, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 775, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/timetables/_cron.py", line 102, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2024-06-30T03:27:43.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/to_gcs.py
+[2024-06-30T03:27:43.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/to_gcs.py took 0.310 seconds
