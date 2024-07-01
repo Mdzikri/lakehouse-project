@@ -10,6 +10,8 @@ source:
       - include: "gs://testing-de/datahub/*.csv"
       - include: "gs://testing-de/datahub/output_data.parquet/*.parquet"
     credential:
+      hmac_access_id: " "
+      hmac_access_secret: " "
 sink:
   type: "datahub-rest"
   config:
