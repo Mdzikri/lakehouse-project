@@ -7,7 +7,7 @@ import pandas as pd
 import os
 
 def export_data_from_mysql():
-    hook = MySqlHook(mysql_conn_id='mysql_conn')
+    hook = MySqlHook(mysql_conn_id='mysql_conn2')
     engine = hook.get_sqlalchemy_engine()
     df = pd.read_sql('SELECT * FROM tugas', con=engine)
     local_path = '/opt/airflow/datasource/datasource.csv'
@@ -26,7 +26,7 @@ with DAG(
     'data_transfer_to_gcs',
     default_args=default_args,
     description='DAG untuk mengekspor data dari MySQL dan mengunggah ke GCS',
-    schedule_interval='datetime.today()',
+    schedule_interval='@once',
     start_date=days_ago(1),
 ) as dag:
 
@@ -38,7 +38,7 @@ with DAG(
     upload_to_gcs_task = LocalFilesystemToGCSOperator(
         task_id='upload_to_gcs',
         src="{{ task_instance.xcom_pull(task_ids='export_data_from_mysql') }}",
-        dst='data/data-source.csv',
+        dst='datahub/real.csv',
         bucket='testing-de',
         gcp_conn_id='google_cloud_default',  # Gunakan nama koneksi GCS yang benar
     )

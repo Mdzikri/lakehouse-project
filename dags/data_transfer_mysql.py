@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 
 def load_data_to_mysql():
     # conections
-    hook = MySqlHook(mysql_conn_id='mysql_conn')
+    hook = MySqlHook(mysql_conn_id='mysql_conn2')
     engine = create_engine(hook.get_uri())
     #read data
     df = pd.read_csv('/opt/airflow/csv/online_gaming_behavior_dataset.csv')

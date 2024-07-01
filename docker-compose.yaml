@@ -13,6 +13,7 @@ x-common:
     - ./datasource:/opt/airflow/datasource
     - ./dataproc:/opt/airflow/dataproc
     - ./csv:/opt/airflow/csv
+    - ./datahub:/opt/airflow/datahub
     - /var/run/docker.sock:/var/run/docker.sock
   environment:
     - GOOGLE_APPLICATION_CREDENTIALS=/opt/airflow/dags/credentials/starlit-cocoa-423615-r6-2cc261b108bb.json
@@ -57,7 +58,7 @@ services:
     restart: always
     command: webserver
     ports:
-      - "8081:8080"
+      - "8082:8080"
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 30s
@@ -72,6 +73,7 @@ services:
       - ./datasource:/opt/airflow/datasource
       - ./dataproc:/opt/airflow/dataproc
       - ./csv:/opt/airflow/csv
+      - ./datahub:/opt/airflow/datahub
 
   airflow-init:
     <<: *common
