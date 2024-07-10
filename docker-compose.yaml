@@ -17,7 +17,7 @@ x-common:
     - /var/run/docker.sock:/var/run/docker.sock
   environment:
     - GOOGLE_APPLICATION_CREDENTIALS=/opt/airflow/dags/credentials/starlit-cocoa-423615-r6-2cc261b108bb.json
-
+    - DATAHUB_BASE_URL=${DATAHUB_BASE_URL}  # Tambahkan ini
 
 x-depends-on:
   &depends-on
@@ -50,7 +50,7 @@ services:
     ports:
       - "8793:8793"
     environment:
-      - PIP_ADDITIONAL_REQUIREMENTS=pymysql apache-airflow-providers-google
+      - PIP_ADDITIONAL_REQUIREMENTS=pymysql apache-airflow-providers-google datahub
 
   webserver:
     <<: [*common, *depends-on]
@@ -65,7 +65,7 @@ services:
       timeout: 30s
       retries: 5
     environment:
-      - PIP_ADDITIONAL_REQUIREMENTS=pymysql apache-airflow-providers-google
+      - PIP_ADDITIONAL_REQUIREMENTS=pymysql apache-airflow-providers-google datahub
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
@@ -86,7 +86,7 @@ services:
         chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins,script,ipynb}
         exec /entrypoint airflow version
     environment:
-      - PIP_ADDITIONAL_REQUIREMENTS=pymysql apache-airflow-providers-google
+      - PIP_ADDITIONAL_REQUIREMENTS=pymysql apache-airflow-providers-google datahub
 
 volumes:
-  postgres_data: 
+  postgres_data:

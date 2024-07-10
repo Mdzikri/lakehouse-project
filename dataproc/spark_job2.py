@@ -1,15 +1,9 @@
+
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import sum as _sum
 import matplotlib.pyplot as plt
 import pandas as pd
 import logging
-from google.cloud import storage
-
-def upload_to_gcs(local_file_path, bucket_name, gcs_file_path):
-    client = storage.Client()
-    bucket = client.get_bucket(bucket_name)
-    blob = bucket.blob(gcs_file_path)
-    blob.upload_from_filename(local_file_path)
 
 def main():
     # Set up logging
@@ -49,14 +43,8 @@ def main():
         ax[1].set_ylabel('Total Achievements Unlocked')
 
         plt.tight_layout()
-        local_file_path = '/tmp/gaming_data_visualization.png'
-        plt.savefig(local_file_path)
+        plt.savefig('/tmp/gaming_data_visualization.png')
         logger.info("Visualisasi selesai dan disimpan sebagai gambar")
-
-        # Upload gambar ke GCS
-        logger.info("Mengunggah gambar ke GCS")
-        upload_to_gcs(local_file_path, 'testing-de', 'data/visualizations/gaming_data_visualization.png')
-        logger.info("Gambar berhasil diunggah ke GCS")
 
     except Exception as e:
         logger.error("Error saat menjalankan script", exc_info=True)

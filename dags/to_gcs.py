@@ -38,7 +38,7 @@ with DAG(
     upload_to_gcs_task = LocalFilesystemToGCSOperator(
         task_id='upload_to_gcs',
         src="{{ task_instance.xcom_pull(task_ids='export_data_from_mysql') }}",
-        dst='datahub/real.csv',
+        dst='testing/real.csv',
         bucket='testing-de',
         gcp_conn_id='google_cloud_default',  # Gunakan nama koneksi GCS yang benar
     )

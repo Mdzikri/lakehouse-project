@@ -1,0 +1,12 @@
+source:
+  type: "mysql"
+  config:
+    username: "root"  
+    password: "password"  
+    database: "dataset_db"  
+    host_port: "172.19.0.1:3307"  
+    env: "local"  
+sink:
+  type: "datahub-rest"
+  config:
+    server: "http://localhost:8080"  
